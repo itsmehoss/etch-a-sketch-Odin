@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles.css" />
+		<script src="./scripts.js" defer></script>
+		<title>Etch-a-Sketch by Hoss</title>
+	</head>
+	<body>
+		<!-- header -->
+		<header class="header">Etch-a-Sketch</header>
+
+		<!-- side bar -->
+		<div class="main">
+			<div class="sidebar setting">
+
+				<label for="colorPicker">&#8595; Pick a Color &#8595;</label>
+				<input id="colorPicker" type="color" value="#000000" />
+
+				<button id="colorModeBtn" class="btn active">Color Mode</button>
+				<button id="rainbowModeBtn" class="btn">Rainbow Mode</button>
+
+				<button id="eraserBtn" class="btn">Eraser</button>
+				<button id="clearBtn" class="btn">Clear</button>
+
+				<label for="sizeSlider" id="sizeLabel"></label>
+				<input id="sizeSlider" type="range" value="64" min="1" max="99" />
+			</div>
+
+			<!-- grids -->
+			<div class="grids"></div>
+		</div>
+
+		<!-- footer -->
+		<footer class="footer">Copyright &copy; 2023 itsmehoss</footer>
+	</body>
+</html>
