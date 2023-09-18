@@ -1,5 +1,6 @@
 # etch-a-sketch-Odin
 Project: Etch-a-Sketch - Foundations Course @ www.theodinproject.com
+
 Live preview: https://itsmehoss.github.io/etch-a-sketch-Odin/
 
 It's not the best design, but will do the job for now.
